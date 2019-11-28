@@ -33,5 +33,5 @@ if os.path.isfile(filepath):
 if os.path.isfile(filepath):
     f = open(filepath, mode='r')
     data = f.read()
-    if data == "Hello World":
+    if len(data) == len("Hello World"):
         print('符合 Hello World 字數')
