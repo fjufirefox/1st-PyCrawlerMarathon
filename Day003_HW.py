@@ -42,7 +42,7 @@ for sect_with_temper in sect_with_tempers:
         if weatherElement["description"] == '溫度':
             count_num = count_num + 1
 
-# print('高雄市有%s地區有溫度資料' % count_num)
+print('高雄市有%s地區有溫度資料' % count_num)
 
 # 2. 請取出每一個地區所記錄的第一個時間點跟溫度
 for sect_with_temper in sect_with_tempers:
